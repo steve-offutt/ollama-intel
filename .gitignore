@@ -1,0 +1,5 @@
+# Models and caches
+.ollama/
+*.tgz
+*.tar.gz
+*.deb
