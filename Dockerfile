@@ -19,9 +19,9 @@ ENV TZ=Etc/UTC
 # ---------------------------------------------------------------------------
 
 # Intel Graphics Compiler (IGC)
-ARG IGC_VERSION=v2.38.2
-ARG IGC_CORE_DEB=intel-igc-core-2_2.38.2+22051_amd64.deb
-ARG IGC_OPENCL_DEB=intel-igc-opencl-2_2.38.2+22051_amd64.deb
+ARG IGC_VERSION=v2.36.3
+ARG IGC_CORE_DEB=intel-igc-core-2_2.36.3+21719_amd64.deb
+ARG IGC_OPENCL_DEB=intel-igc-opencl-2_2.36.3+21719_amd64.deb
 
 # Intel Compute Runtime (Level-Zero GPU driver, OpenCL ICD, gmmlib)
 ARG COMPUTE_RT_VERSION=26.22.38646.4
