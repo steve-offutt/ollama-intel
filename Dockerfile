@@ -19,24 +19,24 @@ ENV TZ=Etc/UTC
 # ---------------------------------------------------------------------------
 
 # Intel Graphics Compiler (IGC)
-ARG IGC_VERSION=v2.8.3
-ARG IGC_CORE_DEB=intel-igc-core-2_2.8.3+18762_amd64.deb
-ARG IGC_OPENCL_DEB=intel-igc-opencl-2_2.8.3+18762_amd64.deb
+ARG IGC_VERSION=v2.38.2
+ARG IGC_CORE_DEB=intel-igc-core-2_2.38.2+22051_amd64.deb
+ARG IGC_OPENCL_DEB=intel-igc-opencl-2_2.38.2+22051_amd64.deb
 
 # Intel Compute Runtime (Level-Zero GPU driver, OpenCL ICD, gmmlib)
-ARG COMPUTE_RT_VERSION=25.09.32961.7
-ARG LEVEL_ZERO_GPU_DEB=intel-level-zero-gpu_1.6.32961.7_amd64.deb
-ARG OPENCL_ICD_DEB=intel-opencl-icd_25.09.32961.7_amd64.deb
-ARG GMMLIB_DEB=libigdgmm12_22.6.0_amd64.deb
+ARG COMPUTE_RT_VERSION=26.22.38646.4
+ARG LEVEL_ZERO_GPU_DEB=libze-intel-gpu1_26.22.38646.4-0_amd64.deb
+ARG OPENCL_ICD_DEB=intel-opencl-icd_26.22.38646.4-0_amd64.deb
+ARG GMMLIB_DEB=libigdgmm12_22.10.0_amd64.deb
 
 # Level-Zero Loader
-ARG LEVEL_ZERO_LOADER_VERSION=v1.21.9
-ARG LEVEL_ZERO_LOADER_DEB=level-zero_1.21.9+u24.04_amd64.deb
+ARG LEVEL_ZERO_LOADER_VERSION=v1.32.0
+ARG LEVEL_ZERO_LOADER_DEB=libze1_1.32.0+u24.04_amd64.deb
 
 # IPEX-LLM Ollama portable package
 ARG IPEXLLM_RELEASE_REPO=ipex-llm/ipex-llm
-ARG IPEXLLM_RELEASE_VERSION=v2.3.0-nightly
-ARG IPEXLLM_PORTABLE_ZIP=ollama-ipex-llm-2.3.0b20250725-ubuntu.tgz
+ARG IPEXLLM_RELEASE_VERSION=v2.2.0
+ARG IPEXLLM_PORTABLE_ZIP=ollama-ipex-llm-2.2.0-ubuntu.tgz
 
 # ---------------------------------------------------------------------------
 # Step 1: Install base packages
